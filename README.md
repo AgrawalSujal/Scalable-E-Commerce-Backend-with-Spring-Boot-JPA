@@ -116,15 +116,4 @@ The project auto-loads sample records (car products) from `src/main/resources/da
 ./mvnw test
 ```
 
-## Author Notes
 
-- Field name currently used in code for image bytes is `imageDate` (likely intended as `imageData`).
-- Multipart form key expected by controller is `imagFile`.
-
----
-
-If you want, I can also add:
-
-1. OpenAPI/Swagger documentation
-2. Postman collection
-3. A production-ready profile with MySQL/PostgreSQL
